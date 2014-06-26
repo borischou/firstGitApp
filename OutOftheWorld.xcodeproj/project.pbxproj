@@ -14,13 +14,13 @@
 		54D2B1D1195AAAB600508F19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D2B1D0195AAAB600508F19 /* main.m */; };
 		54D2B1D5195AAAB600508F19 /* OWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D2B1D4195AAAB600508F19 /* OWAppDelegate.m */; };
 		54D2B1D8195AAAB600508F19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D2B1D6195AAAB600508F19 /* Main.storyboard */; };
-		54D2B1DB195AAAB600508F19 /* OWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D2B1DA195AAAB600508F19 /* OWViewController.m */; };
 		54D2B1DD195AAAB600508F19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D2B1DC195AAAB600508F19 /* Images.xcassets */; };
 		54D2B1E4195AAAB600508F19 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D2B1E3195AAAB600508F19 /* XCTest.framework */; };
 		54D2B1E5195AAAB600508F19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D2B1C4195AAAB600508F19 /* Foundation.framework */; };
 		54D2B1E6195AAAB600508F19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D2B1C8195AAAB600508F19 /* UIKit.framework */; };
 		54D2B1EE195AAAB600508F19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54D2B1EC195AAAB600508F19 /* InfoPlist.strings */; };
 		54D2B1F0195AAAB600508F19 /* OutOftheWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D2B1EF195AAAB600508F19 /* OutOftheWorldTests.m */; };
+		54D2B1FB195AB01900508F19 /* OWOutOfWorldTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D2B1FA195AB01900508F19 /* OWOutOfWorldTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		54D2B1D3195AAAB600508F19 /* OWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWAppDelegate.h; sourceTree = "<group>"; };
 		54D2B1D4195AAAB600508F19 /* OWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWAppDelegate.m; sourceTree = "<group>"; };
 		54D2B1D7195AAAB600508F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		54D2B1D9195AAAB600508F19 /* OWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWViewController.h; sourceTree = "<group>"; };
-		54D2B1DA195AAAB600508F19 /* OWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWViewController.m; sourceTree = "<group>"; };
 		54D2B1DC195AAAB600508F19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		54D2B1E2195AAAB600508F19 /* OutOftheWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutOftheWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D2B1E3195AAAB600508F19 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		54D2B1EB195AAAB600508F19 /* OutOftheWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OutOftheWorldTests-Info.plist"; sourceTree = "<group>"; };
 		54D2B1ED195AAAB600508F19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		54D2B1EF195AAAB600508F19 /* OutOftheWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutOftheWorldTests.m; sourceTree = "<group>"; };
+		54D2B1F9195AB01900508F19 /* OWOutOfWorldTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWOutOfWorldTableViewController.h; sourceTree = "<group>"; };
+		54D2B1FA195AB01900508F19 /* OWOutOfWorldTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWOutOfWorldTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				54D2B1D3195AAAB600508F19 /* OWAppDelegate.h */,
 				54D2B1D4195AAAB600508F19 /* OWAppDelegate.m */,
 				54D2B1D6195AAAB600508F19 /* Main.storyboard */,
-				54D2B1D9195AAAB600508F19 /* OWViewController.h */,
-				54D2B1DA195AAAB600508F19 /* OWViewController.m */,
+				54D2B1F9195AB01900508F19 /* OWOutOfWorldTableViewController.h */,
+				54D2B1FA195AB01900508F19 /* OWOutOfWorldTableViewController.m */,
 				54D2B1DC195AAAB600508F19 /* Images.xcassets */,
 				54D2B1CB195AAAB600508F19 /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				54D2B1D5195AAAB600508F19 /* OWAppDelegate.m in Sources */,
-				54D2B1DB195AAAB600508F19 /* OWViewController.m in Sources */,
 				54D2B1D1195AAAB600508F19 /* main.m in Sources */,
+				54D2B1FB195AB01900508F19 /* OWOutOfWorldTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
